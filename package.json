@@ -1,0 +1,11 @@
+{
+  "name": "hello",
+  "version": "0.0.0",
+  "description": "Uses bash to blink raspi ACT light",
+  "main": "index.js",
+  "scripts": {
+    "start":"bash blink-act-led.sh"
+  },
+  "author": "",
+  "license": "ISC"
+}
