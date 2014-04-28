@@ -1,5 +1,5 @@
 # disable activity trigger for led0
-echo none >/sys/class/leds/led0/trigger
+echo none > /sys/class/leds/led0/trigger
 
 #ten fast blinks
 for i in `seq 1 10`;
